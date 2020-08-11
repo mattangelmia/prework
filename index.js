@@ -12,3 +12,10 @@ function placeHorizontal(thePlayer, command) {
     }
 }
 
+const player = {
+    x: 1,
+    y: 1,
+    path: [{ x: 1, y: 1 }]
+};
+
+
