@@ -1,7 +1,7 @@
 function calculator(num1, num2, operator) {
     // makes sure user always passes three args
     if (!num1 || !num2 || !operator) {
-        console.log('Please provide both numbers and operator!');
+        console.log('provide both numbers and operator!');
         return;
     }
     // makes sure user passes numeric values
