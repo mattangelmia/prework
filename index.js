@@ -8,7 +8,7 @@ function placeHorizontal(thePlayer, command) {
 
         console.log(`the Player has position: x=${thePlayer.x}, y=${thePlayer.y}`);
     } else {
-        console.log("dont place player outside of the board!");
+        console.log("you cant place player outside of the board!");
     }
 }
 
