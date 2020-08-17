@@ -1,21 +1,8 @@
-function placeHorizontal(thePlayer, command) {
-    if (thePlayer.y >= 0 && thePlayer.y < 2) {
-        if (command === 'l') {
-            thePlayer.y--;
-        } else {
-            thePlayer.y++;
-        }
+button.addEventListener('click', changeBackground)
 
-        console.log(`the Player has position: x=${thePlayer.x}, y=${thePlayer.y}`);
-    } else {
-        console.log("you cant place player outside of the board!");
-    }
+function changeBackground() {
+    const colorIndex = parseInt(Math.random() * colors.length + 1)
+    const colorIndex = parseInt(Math.random() * colors.length)
+    body.style.backgroundColor = colors[colorIndex]
 }
-
-const player = {
-    x: 1,
-    y: 1,
-    path: [{ x: 1, y: 1 }]
-};
-
 
